@@ -1,0 +1,48 @@
+/* =====================================================
+   MSEC DESIGN SYSTEM
+   ===================================================== */
+
+/* ---------- COLORS ---------- */
+
+:root{
+
+    /* Primary */
+
+    --color-primary:#3D78C8;
+    --color-primary-dark:#2B5EA7;
+
+    /* Backgrounds */
+
+    --bg-main:#0E1116;
+    --bg-secondary:#171C24;
+    --bg-glass:rgba(18,25,35,.55);
+
+    /* Text */
+
+    --text-white:#FFFFFF;
+    --text-light:#D8DEE7;
+    --text-muted:#98A4B5;
+
+    /* Borders */
+
+    --border-color:rgba(255,255,255,.08);
+
+    /* Shadows */
+
+    --shadow-lg:0 20px 60px rgba(0,0,0,.45);
+
+    /* Radius */
+
+    --radius-sm:8px;
+    --radius-md:14px;
+    --radius-lg:24px;
+
+    /* Container */
+
+    --container:1400px;
+
+    /* Transition */
+
+    --transition:.35s ease;
+
+}
