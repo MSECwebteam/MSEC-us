@@ -152,13 +152,26 @@
 
     }
 
-    .hero-title{
+    .hero-tag{
 
-        align-items:flex-start;
-        gap:6px;
+    font-size:.8rem;
+
+    letter-spacing:2px;
+
+    margin-bottom:14px;
 
     }
 
+    .hero-title{
+
+    align-items:flex-start;
+
+    gap:2px;
+
+    margin:16px 0 20px;
+
+    }
+    
     .hero-title span{
 
         font-size:2.55rem;
