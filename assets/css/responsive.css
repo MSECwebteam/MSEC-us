@@ -64,7 +64,13 @@
     font-size:4.2rem;
 
 }
+.trust-grid{
 
+    grid-template-columns:repeat(2,1fr);
+
+    gap:24px;
+
+}
 }
 
 
@@ -76,40 +82,54 @@
 @media (max-width:768px){
 @media (max-width:768px){
 
-    .hero{
+    /* ---------- NAVBAR ---------- */
 
-        min-height:auto;
+    .nav-container{
 
-        padding:120px 0 80px;
+        display:flex;
 
-        background-position:72% center;
+        justify-content:space-between;
+
+        align-items:center;
+
+        height:72px;
+
+        padding:0 20px;
 
     }
 
-    .hero .container{
+    .logo img{
 
-        min-height:auto;
+        height:56px;
+
+    }
+
+    .nav-links{
+
+        display:none;
+
+    }
+
+    .nav-btn{
+
+        display:none;
+
+    }
+
+    .menu-toggle{
+
+        display:flex;
+
+        flex-direction:column;
 
         justify-content:center;
 
-    }
-
-    .hero-content{
-
-        margin-left:0;
-
-        max-width:100%;
-
-        padding:0 24px;
-
-        text-align:center;
+        align-items:center;
 
     }
 
 }
 }
-
-
 
 /* =====================================================
    SMALL MOBILE

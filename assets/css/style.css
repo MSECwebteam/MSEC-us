@@ -111,6 +111,41 @@ section{
 /* =====================================================
    NAVIGATION
 ===================================================== */
+.menu-toggle{
+
+    display:none;
+
+    width:46px;
+
+    height:46px;
+
+    background:none;
+
+    border:none;
+
+    cursor:pointer;
+
+    padding:0;
+
+}
+
+.menu-toggle span{
+
+    display:block;
+
+    width:28px;
+
+    height:3px;
+
+    margin:5px auto;
+
+    background:white;
+
+    border-radius:10px;
+
+    transition:.3s ease;
+
+}
 
 /* =====================================================
    PREMIUM NAVIGATION
