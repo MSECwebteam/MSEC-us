@@ -347,32 +347,63 @@ section{
 
 }
 
-.hero h1{
+.hero-title{
 
-    font-family: var(--font-heading);
+    display:flex;
 
-    font-size:5.4rem;
+    flex-direction:column;
 
-    line-height:.95;
+    gap:8px;
 
-    font-weight:700;
+    margin:30px 0;
 
-    letter-spacing:-2px;
+    line-height:.9;
 
-    margin:28px 0;
+}
+.hero-title span{
 
-    text-transform:uppercase;
+    display:inline-block;
 
-    text-shadow:
-        0 8px 24px rgba(0,0,0,.45);
+    width:fit-content;
+
+    font-size:5.8rem;
+
+    font-weight:800;
+
+    letter-spacing:-3px;
+
+    transition:
+        color .35s ease,
+        text-shadow .35s ease,
+        transform .35s ease;
+
+    cursor:default;
+
+}
+.hero-title span:nth-child(1){
+
+    color:white;
 
 }
 
-.hero h1 span{
+.hero-title span:nth-child(2),
 
-    display:block;
+.hero-title span:nth-child(3){
 
     color:var(--color-primary);
+
+}
+.hero-title span:hover{
+
+    transform:translateX(10px);
+
+    text-shadow:
+
+        0 0 10px rgba(0,140,255,.9),
+
+        0 0 25px rgba(0,140,255,.5),
+
+        0 0 45px rgba(0,140,255,.25);
 
 }
 
@@ -444,24 +475,6 @@ section{
     font-size:.85rem;
 
     font-weight:600;
-
-}
-
-.hero-content h1{
-
-    font-size:5.8rem;
-
-    line-height:.95;
-
-    margin:24px 0;
-
-}
-
-.hero-content h1 span{
-
-    display:block;
-
-    color:var(--color-primary);
 
 }
 
