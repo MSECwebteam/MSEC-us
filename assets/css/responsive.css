@@ -86,14 +86,16 @@
         display:flex;
         justify-content:space-between;
         align-items:center;
-        height:72px;
+        height:66px;
         padding:0 20px;
 
     }
 
     .logo img{
 
-        height:56px;
+    height:66px;
+
+    transition:.3s ease;
 
     }
 
@@ -111,10 +113,13 @@
 
     .menu-toggle{
 
-        display:flex;
-        flex-direction:column;
-        justify-content:center;
-        align-items:center;
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
 
     }
 
@@ -123,8 +128,11 @@
     .hero{
 
     min-height:auto;
-    padding:110px 0 70px;
+
+    padding:95px 0 55px;
+
     background-position:82% center;
+
     background-size:cover;
 
     }

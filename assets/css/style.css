@@ -137,15 +137,35 @@ section{
 
     height:3px;
 
-    margin:5px auto;
+    margin:4px auto;
+
+    border-radius:30px;
 
     background:white;
 
-    border-radius:10px;
+    transition:
+        transform .3s ease,
+        opacity .3s ease,
+        width .3s ease;
 
-    transition:.3s ease;
+    }
+    .menu-toggle:hover span:nth-child(1){
 
-}
+        width:22px;
+
+    }
+
+    .menu-toggle:hover span:nth-child(2){
+
+        width:28px;
+
+    }
+
+    .menu-toggle:hover span:nth-child(3){
+
+        width:18px;
+
+    }
 
 /* =====================================================
    PREMIUM NAVIGATION
