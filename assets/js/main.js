@@ -1,12 +1,17 @@
-const menuToggle = document.querySelector(".menu-toggle");
-const mobileMenu = document.querySelector(".mobile-menu");
+window.addEventListener("DOMContentLoaded", () => {
 
-console.log("main.js loaded");
+    const menuToggle = document.querySelector(".menu-toggle");
+    const mobileMenu = document.querySelector(".mobile-menu");
 
-menuToggle.addEventListener("click", () => {
+    console.log("Button:", menuToggle);
+    console.log("Menu:", mobileMenu);
 
-    console.log("Hamburger clicked");
+    menuToggle.addEventListener("click", () => {
 
-    mobileMenu.classList.toggle("active");
+        console.log("CLICKED!");
+
+        mobileMenu.classList.toggle("active");
+
+    });
 
 });
