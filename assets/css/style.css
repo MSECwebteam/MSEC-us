@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
 /* =====================================================
    MSEC GLOBAL STYLES
    ===================================================== */
@@ -159,15 +161,29 @@ section{
 
 }
 
-.logo h2{
+.logo{
 
-    font-size:1.9rem;
+    display:flex;
 
-    letter-spacing:4px;
+    align-items:center;
 
-    font-weight:700;
+}
 
-    color:white;
+.logo img{
+
+    height:64px;
+
+    width:auto;
+
+    display:block;
+
+    transition:.3s ease;
+
+}
+
+.logo img:hover{
+
+    transform:scale(1.03);
 
 }
 
@@ -333,13 +349,22 @@ section{
 
 .hero h1{
 
-    font-size:6rem;
+    font-family: var(--font-heading);
+
+    font-size:5.4rem;
 
     line-height:.95;
 
-    margin-top:20px;
-
     font-weight:700;
+
+    letter-spacing:-2px;
+
+    margin:28px 0;
+
+    text-transform:uppercase;
+
+    text-shadow:
+        0 8px 24px rgba(0,0,0,.45);
 
 }
 
@@ -533,5 +558,16 @@ section{
     color:var(--text-light);
 
     line-height:1.7;
+
+}
+.headline-white{
+
+    color:var(--color-white);
+
+}
+
+.headline-blue{
+
+    color:var(--color-accent);
 
 }
