@@ -656,13 +656,13 @@ section{
 
 .mobile-menu{
 
-    position:absolute;
+    position:fixed;
 
-    top:90px;
+    top:82px;
 
-    left:20px;
+    left:16px;
 
-    right:20px;
+    right:16px;
 
     display:flex;
 
@@ -672,7 +672,7 @@ section{
 
     padding:28px;
 
-    background:rgba(18,25,35,.96);
+    background:rgba(18,25,35,.98);
 
     backdrop-filter:blur(20px);
 
@@ -688,9 +688,14 @@ section{
 
     visibility:hidden;
 
-    transform:translateY(-20px);
+    pointer-events:none;
 
-    transition:.35s ease;
+    transform:translateY(-15px);
+
+    transition:
+        opacity .3s ease,
+        transform .3s ease,
+        visibility .3s ease;
 
     z-index:999;
 
@@ -701,6 +706,8 @@ section{
     opacity:1;
 
     visibility:visible;
+
+    pointer-events:auto;
 
     transform:translateY(0);
 
