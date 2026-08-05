@@ -586,3 +586,59 @@ section{
     color:var(--color-accent);
 
 }
+/* =====================================================
+   RESPONSIVE DESIGN
+===================================================== */
+@media (max-width: 992px){
+    header .container{
+
+    padding:0 20px;
+
+}
+
+.logo img{
+
+    height:60px;
+
+}
+
+.nav-links{
+
+    gap:18px;
+
+}
+
+.nav-btn{
+
+    padding:12px 22px;
+
+}
+.hero{
+
+    min-height:auto;
+
+    padding:140px 0 100px;
+
+}
+
+.hero .container{
+
+    min-height:auto;
+
+}
+
+.hero-content{
+
+    margin-left:0;
+
+    max-width:100%;
+
+}
+.hero-title span{
+
+    font-size:4.2rem;
+
+}
+@media (max-width:768px)
+
+}
