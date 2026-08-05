@@ -732,3 +732,108 @@ section{
     margin-top:12px;
 
 }
+/* =====================================================
+   SERVICES
+===================================================== */
+
+.services{
+
+    background:var(--bg-main);
+
+    padding:140px 0;
+
+}
+
+.section-tag{
+
+    display:inline-block;
+
+    color:var(--color-primary);
+
+    font-size:.85rem;
+
+    font-weight:600;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    margin-bottom:18px;
+
+}
+
+.services h2{
+
+    max-width:700px;
+
+    font-size:3rem;
+
+    line-height:1.1;
+
+    margin-bottom:24px;
+
+}
+
+.section-description{
+
+    max-width:650px;
+
+    color:var(--text-light);
+
+    font-size:1.1rem;
+
+    line-height:1.8;
+
+    margin-bottom:70px;
+
+}
+
+.services-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:28px;
+
+}
+
+.service-card{
+
+    background:rgba(255,255,255,.03);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:18px;
+
+    padding:38px;
+
+    transition:.3s ease;
+
+}
+
+.service-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:var(--color-primary);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.35);
+
+}
+
+.service-card h3{
+
+    margin-bottom:18px;
+
+    font-size:1.35rem;
+
+}
+
+.service-card p{
+
+    color:var(--text-light);
+
+    line-height:1.8;
+
+}
