@@ -99,15 +99,23 @@
 
     }
 
-    .nav-links{
+    nav .nav-links{
 
-        display:none;
+    display:none !important;
+
+    }
+
+    nav{
+
+    display:flex;
+
+    align-items:center;
 
     }
 
     .nav-btn{
 
-        display:none;
+        display:none !important;
 
     }
 
