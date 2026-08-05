@@ -73,13 +73,10 @@
 }
 }
 
-
-
 /* =====================================================
    MOBILE
 ===================================================== */
 
-@media (max-width:768px){
 @media (max-width:768px){
 
     /* ---------- NAVBAR ---------- */
@@ -87,13 +84,9 @@
     .nav-container{
 
         display:flex;
-
         justify-content:space-between;
-
         align-items:center;
-
         height:72px;
-
         padding:0 20px;
 
     }
@@ -119,22 +112,88 @@
     .menu-toggle{
 
         display:flex;
-
         flex-direction:column;
-
         justify-content:center;
-
         align-items:center;
 
     }
 
-}
-}
+    /* ---------- HERO ---------- */
 
-/* =====================================================
-   SMALL MOBILE
-===================================================== */
+    .hero{
 
-@media (max-width:480px){
+    min-height:auto;
+    padding:110px 0 70px;
+    background-position:82% center;
+    background-size:cover;
+
+    }
+
+    .hero .container{
+
+        justify-content:center;
+
+    }
+
+    .hero-content{
+
+        margin:0;
+        max-width:100%;
+        padding:0 26px;
+        text-align:left;
+
+    }
+
+    .hero-title{
+
+        align-items:flex-start;
+        gap:6px;
+
+    }
+
+    .hero-title span{
+
+        font-size:2.55rem;
+        line-height:.92;
+        letter-spacing:-1px;
+        width:auto;
+
+    }
+
+    .hero-divider{
+
+        margin:25px 0;
+
+    }
+
+    .hero-content p{
+
+        max-width:100%;
+        font-size:1rem;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+        align-items:flex-start;
+        gap:16px;
+
+    }
+
+    .hero-buttons .btn{
+
+        width:100%;
+        max-width:260px;
+
+    }
+
+    /* ---------- TRUST ---------- */
+
+    .trust-grid{
+
+        grid-template-columns:1fr;
+
+    }
 
 }
