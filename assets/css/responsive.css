@@ -122,6 +122,11 @@
     align-items:center;
 
     }
+    .mobile-menu{
+
+    display:flex;
+
+    }
 
     /* ---------- HERO ---------- */
 
@@ -171,7 +176,7 @@
     margin:16px 0 20px;
 
     }
-    
+
     .hero-title span{
 
         font-size:2.55rem;
