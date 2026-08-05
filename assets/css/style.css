@@ -674,4 +674,47 @@ section{
     padding:0 24px;
 
 }
+.hero-title{
+
+    align-items:center;
+
+    gap:2px;
+
+    margin:20px 0;
+
+}
+
+.hero-title span{
+
+    font-size:3rem;
+
+    letter-spacing:-2px;
+
+    width:100%;
+
+}
+.hero-buttons{
+
+    flex-direction:column;
+
+    align-items:center;
+
+    width:100%;
+
+}
+
+.hero-buttons .btn{
+
+    width:100%;
+
+    max-width:300px;
+
+}
+.hero-content p{
+
+    max-width:100%;
+
+    font-size:1rem;
+
+}
 }
