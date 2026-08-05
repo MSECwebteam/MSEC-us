@@ -395,15 +395,17 @@ section{
 }
 .hero-title span:hover{
 
+    color:white;
+
     transform:translateX(10px);
 
     text-shadow:
 
-        0 0 10px rgba(0,140,255,.9),
+        0 0 8px rgba(255,255,255,.85),
 
-        0 0 25px rgba(0,140,255,.5),
+        0 0 18px rgba(255,255,255,.55),
 
-        0 0 45px rgba(0,140,255,.25);
+        0 0 35px rgba(255,255,255,.25);
 
 }
 
