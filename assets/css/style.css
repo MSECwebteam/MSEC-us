@@ -717,4 +717,51 @@ section{
     font-size:1rem;
 
 }
+nav{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:flex-end;
+
+}
+
+.menu-toggle{
+
+    display:block;
+
+    font-size:2rem;
+
+    color:white;
+
+}
+
+.nav-links{
+
+    display:none;
+
+}
+
+.nav-btn{
+
+    display:none;
+
+}
+
+}
+.menu-toggle{
+
+    display:none;
+
+    background:none;
+
+    border:none;
+
+    color:var(--color-white);
+
+    font-size:2rem;
+
+    cursor:pointer;
+
 }
