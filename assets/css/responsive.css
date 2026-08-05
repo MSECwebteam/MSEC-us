@@ -1,0 +1,69 @@
+/* =====================================================
+   RESPONSIVE STYLES
+   =====================================================
+
+   1200px - Large laptops
+   992px  - Tablets
+   768px  - Phones
+   480px  - Small phones
+
+===================================================== */
+/* =====================================================
+   TABLETS
+===================================================== */
+
+@media (max-width:992px){
+
+}
+
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width:768px){
+@media (max-width:768px){
+
+    .hero{
+
+        min-height:auto;
+
+        padding:120px 0 80px;
+
+        background-position:72% center;
+
+    }
+
+    .hero .container{
+
+        min-height:auto;
+
+        justify-content:center;
+
+    }
+
+    .hero-content{
+
+        margin-left:0;
+
+        max-width:100%;
+
+        padding:0 24px;
+
+        text-align:center;
+
+    }
+
+}
+}
+
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width:480px){
+
+}
