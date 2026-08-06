@@ -870,7 +870,7 @@ section{
 
     position:relative;
 
-    min-height:100vh;
+    padding:170px 0 120px;
 
     display:flex;
 
@@ -904,9 +904,7 @@ section{
 
     display:flex;
 
-    align-items:center;
-
-    min-height:100vh;
+    align-items:flex-start;
 
 }
 
