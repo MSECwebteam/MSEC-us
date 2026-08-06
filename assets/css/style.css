@@ -862,6 +862,7 @@ section{
     transform:translateX(6px);
 
 }
+
 /* =====================================================
    SERVICES HERO
 ===================================================== */
@@ -872,42 +873,49 @@ section{
 
     min-height:100vh;
 
-    padding:170px 0 100px;
-
     background-image:
         linear-gradient(
-            rgba(8,12,18,.72),
-            rgba(8,12,18,.72)
+            rgba(8,12,18,.55),
+            rgba(8,12,18,.75)
         ),
         url("../images/services/services-bg.png");
 
     background-size:cover;
 
-    background-position:center center;
+    background-position:center;
 
     background-repeat:no-repeat;
+
+    padding:170px 0 120px;
 
 }
 
 .services-hero .container{
 
-    position:relative;
-
-    z-index:5;
-
     display:flex;
 
     flex-direction:column;
-
-    align-items:flex-start;
 
 }
 
 .services-hero .hero-content{
 
-    max-width:620px;
+    max-width:650px;
+
+    margin-bottom:70px;
 
 }
+
+.services-hero .services-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:28px;
+
+}
+
 /* =====================================================
    SERVICES PAGE
 ===================================================== */
