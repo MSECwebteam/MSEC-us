@@ -870,27 +870,20 @@ section{
 
     position:relative;
 
-    padding:170px 0 120px;
+    min-height:100vh;
 
-    display:flex;
-
-    align-items:center;
-
-    overflow:hidden;
+    padding:170px 0 100px;
 
     background-image:
         linear-gradient(
-            90deg,
-            rgba(5,8,12,.55) 0%,
-            rgba(5,8,12,.40) 35%,
-            rgba(5,8,12,.15) 65%,
-            rgba(5,8,12,.05) 100%
+            rgba(8,12,18,.72),
+            rgba(8,12,18,.72)
         ),
         url("../images/services/services-bg.png");
 
     background-size:cover;
 
-    background-position:center;
+    background-position:center center;
 
     background-repeat:no-repeat;
 
