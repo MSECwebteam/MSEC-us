@@ -919,9 +919,13 @@ section{
 
 .services-list{
 
-    background:var(--bg-main);
+    position:relative;
 
-    padding:120px 0;
+    margin-top:-170px;
+
+    padding:0 0 120px;
+
+    z-index:20;
 
 }
 
@@ -951,7 +955,7 @@ section{
 
     max-width:650px;
 
-    margin-bottom:24px;
+    margin-bottom:18px;
 
 }
 
@@ -959,7 +963,7 @@ section{
 
     max-width:700px;
 
-    margin-bottom:70px;
+    margin-bottom:45px;
 
     color:var(--text-light);
 
