@@ -896,6 +896,14 @@ section{
 
     flex-direction:column;
 
+    justify-content:center;
+
+    min-height:calc(100vh + 700px);
+
+    padding-top:0;
+
+    transform:translateY(-120px);
+
 }
 
 .services-hero .hero-content{
@@ -917,64 +925,10 @@ section{
 }
 
 /* =====================================================
-   SERVICES PAGE
+   SERVICE CARDS
 ===================================================== */
 
-.services-list{
-
-    position:relative;
-
-    margin-top:-60px;
-
-    padding:0 0 120px;
-
-    z-index:20;
-
-}
-
-.services-list .section-tag{
-
-    display:inline-block;
-
-    color:var(--color-primary);
-
-    text-transform:uppercase;
-
-    letter-spacing:2px;
-
-    font-size:.85rem;
-
-    font-weight:600;
-
-    margin-bottom:18px;
-
-}
-
-.services-list h2{
-
-    font-size:3rem;
-
-    line-height:1.1;
-
-    max-width:650px;
-
-    margin-bottom:18px;
-
-}
-
-.services-list .section-description{
-
-    max-width:700px;
-
-    margin-bottom:45px;
-
-    color:var(--text-light);
-
-    line-height:1.8;
-
-}
-
-.services-list .services-grid{
+.services-grid{
 
     display:grid;
 
@@ -984,7 +938,7 @@ section{
 
 }
 
-.services-list .service-card{
+.service-card{
 
     display:flex;
 
@@ -992,24 +946,32 @@ section{
 
     justify-content:space-between;
 
-    min-height:250px;
+    min-height:185px;
 
-    padding:38px;
+    padding:26px;
 
     border-radius:18px;
 
-    background:rgba(255,255,255,.03);
+    text-decoration:none;
+
+    color:white;
+
+    background:rgba(18,25,35,.55);
+
+    backdrop-filter:blur(16px);
+
+    -webkit-backdrop-filter:blur(16px);
 
     border:1px solid rgba(255,255,255,.08);
 
     transition:
-        transform .35s ease,
-        border-color .35s ease,
-        box-shadow .35s ease;
+        transform .3s ease,
+        border-color .3s ease,
+        box-shadow .3s ease;
 
 }
 
-.services-list .service-card:hover{
+.service-card:hover{
 
     transform:translateY(-8px);
 
@@ -1019,37 +981,37 @@ section{
 
 }
 
-.services-list .service-card h3{
+.service-card h3{
 
-    font-size:1.45rem;
+    font-size:1.3rem;
 
-    margin-bottom:18px;
-
-}
-
-.services-list .service-card p{
-
-    color:var(--text-light);
-
-    line-height:1.8;
+    margin-bottom:12px;
 
 }
 
-.services-list .service-link{
+.service-card p{
 
-    display:inline-block;
+    color:rgba(255,255,255,.82);
 
-    margin-top:30px;
+    font-size:.95rem;
+
+    line-height:1.55;
+
+}
+
+.service-link{
+
+    margin-top:18px;
 
     color:var(--color-primary);
 
     font-weight:600;
 
-    transition:.3s ease;
+    transition:.3s;
 
 }
 
-.services-list .service-card:hover .service-link{
+.service-card:hover .service-link{
 
     color:white;
 
