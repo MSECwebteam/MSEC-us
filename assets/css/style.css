@@ -338,7 +338,7 @@ section{
         ),
         url("../images/hero/hero-bg.png");
 
-    background-size: cover;
+    background-size:115%;
 
     background-position: center;
 
@@ -776,7 +776,7 @@ section{
 
 .section-description{
 
-    max-width:650px;
+    max-width:560px;
 
     color:var(--text-light);
 
@@ -882,7 +882,7 @@ section{
 
     background-size:cover;
 
-    background-position:center;
+    background-position:center 45%;
 
     background-repeat:no-repeat;
 
@@ -908,9 +908,11 @@ section{
 
 .services-hero .hero-content{
 
-    max-width:650px;
+    max-width:560px;
 
     margin-bottom:70px;
+
+    margin-left:120px;
 
 }
 
@@ -920,7 +922,7 @@ section{
 
     grid-template-columns:repeat(3,1fr);
 
-    gap:28px;
+    gap:32px;
 
 }
 
@@ -930,11 +932,17 @@ section{
 
 .services-grid{
 
+    width:100%;
+
+    max-width:1180px;
+
+    margin-left:120px;
+
     display:grid;
 
     grid-template-columns:repeat(3,1fr);
 
-    gap:28px;
+    gap:32px;
 
 }
 
@@ -956,7 +964,7 @@ section{
 
     color:white;
 
-    background:rgba(18,25,35,.55);
+    background:rgba(10,15,22,.72);
 
     backdrop-filter:blur(16px);
 
