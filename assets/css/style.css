@@ -1147,7 +1147,7 @@ transition:
 
     position:relative;
 
-    min-height:100vh;
+    min-height:78vh;
 
     padding:170px 0 120px;
 
@@ -1188,7 +1188,7 @@ transition:
 
 .about-intro{
 
-    padding:120px 0;
+    padding:85px 0;
 
 }
 
@@ -1230,7 +1230,9 @@ transition:
 
     justify-content:center;
 
-    align-items:center;
+    align-items:flex-start;
+
+    padding-top:70px;
 
 }
 
@@ -1311,7 +1313,7 @@ transition:
 
 .about-mindset{
 
-    padding:120px 0;
+    padding:85px 0;
 
     background:rgba(255,255,255,.02);
 
@@ -1387,7 +1389,7 @@ transition:
 
 .about-values{
 
-    padding:120px 0;
+    padding:85px 0;
 
 }
 
@@ -1403,9 +1405,7 @@ transition:
 
     max-width:700px;
 
-    margin:0 auto 70px;
-
-    text-align:center;
+    margin:0 auto 95px;
 
 }
 
@@ -1504,7 +1504,7 @@ transition:
 
 .about-cta{
 
-    padding:120px 0;
+    padding:100px 0 120px;
 
     text-align:center;
 
