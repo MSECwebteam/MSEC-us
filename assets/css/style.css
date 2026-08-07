@@ -1195,17 +1195,17 @@ transition:
 
     align-items:center;
 
-    gap:4px;
+    justify-content:center;
+
+    gap:8px;
 
     margin:30px auto;
-
-    width:fit-content;
 
 }
 
 .about-hero .hero-title span{
 
-    display:block;
+    width:auto;
 
     text-align:center;
 
