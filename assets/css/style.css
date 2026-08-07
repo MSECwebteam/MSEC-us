@@ -1240,7 +1240,7 @@ transition:
 
     width:100%;
 
-    max-width:380px;
+    max-width:460px;
 
     opacity:.18;
 
@@ -1393,6 +1393,16 @@ transition:
 
 }
 
+.about-values .section-tag{
+
+    display:block;
+
+    text-align:center;
+
+    margin-bottom:18px;
+
+}
+
 .about-values h2{
 
     text-align:center;
@@ -1406,6 +1416,8 @@ transition:
     max-width:700px;
 
     margin:0 auto 95px;
+
+    text-align:center;
 
 }
 
