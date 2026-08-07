@@ -1147,7 +1147,7 @@ transition:
 
     position:relative;
 
-    min-height:78vh;
+    min-height:420px;
 
     padding:170px 0 120px;
 
@@ -1168,9 +1168,11 @@ transition:
 
 .about-hero .container{
 
-    min-height:100vh;
+    min-height:420px;
 
     display:flex;
+
+    justify-content:center;
 
     align-items:center;
 
@@ -1178,7 +1180,17 @@ transition:
 
 .about-hero .hero-content{
 
-    max-width:650px;
+    max-width:760px;
+
+    margin:0 auto;
+
+    text-align:center;
+
+}
+
+.about-hero .hero-divider{
+
+    margin:28px auto;
 
 }
 
