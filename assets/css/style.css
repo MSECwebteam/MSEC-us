@@ -1615,12 +1615,3 @@ transition:
     transform:translateY(0);
 
 }
-.about-hero .about-hero-content > *{
-
-    display:block !important;
-
-    width:100%;
-
-    text-align:center;
-
-}
