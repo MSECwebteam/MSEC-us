@@ -912,21 +912,59 @@ section{
 
 .services-hero .hero-content{
 
-    max-width:650px;
+    max-width:850px;
 
-    margin-bottom:40px;
+    margin:0 auto 60px;
+
+    text-align:center;
+
+}
+
+.services-hero .hero-divider{
+
+    margin:30px auto;
+
+}
+
+.services-hero .hero-tag{
+
+    display:block;
+
+    text-align:center;
+
+}
+
+.services-hero .hero-title{
+
+    text-align:center;
+
+}
+
+
+.services-hero .hero-content p{
+
+    max-width:700px;
+
+    margin:0 auto;
 
 }
 
 .services-hero .services-grid{
 
+    width:100%;
+
+    max-width:1320px;
+
     display:grid;
 
     grid-template-columns:repeat(3,1fr);
 
-    gap:32px;
+    gap:24px;
+
+    margin:0 auto;
 
 }
+
 
 /* =====================================================
    SERVICE CARDS
