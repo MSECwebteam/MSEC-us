@@ -1,29 +1,39 @@
-/* ============================
-   Service Card Animation
-============================ */
+/* =========================================
+   SCROLL REVEAL ANIMATION
+========================================= */
 
-const serviceCards = document.querySelectorAll(".service-card");
+const revealElements = document.querySelectorAll(`
+    .service-card,
+    .about-heading,
+    .about-copy,
+    .about-logo,
+    .about-divider,
+    .mindset-quote,
+    .mindset-copy,
+    .value-card,
+    .about-cta
+`);
 
-const serviceObserver = new IntersectionObserver((entries)=>{
+const revealObserver = new IntersectionObserver((entries) => {
 
-    entries.forEach((entry)=>{
+    entries.forEach((entry) => {
 
-        if(entry.isIntersecting){
+        if (entry.isIntersecting) {
 
             entry.target.classList.add("visible");
 
-            serviceObserver.unobserve(entry.target);
+            revealObserver.unobserve(entry.target);
 
         }
 
     });
 
-},{
-    threshold:.15
+}, {
+    threshold: 0.15
 });
 
-serviceCards.forEach(card=>{
+revealElements.forEach((element) => {
 
-    serviceObserver.observe(card);
+    revealObserver.observe(element);
 
 });
