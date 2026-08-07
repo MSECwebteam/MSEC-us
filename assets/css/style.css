@@ -914,7 +914,7 @@ section{
 
     max-width:850px;
 
-    margin:0 auto 60px;
+    margin:0 auto 40px;
 
     text-align:center;
 
@@ -928,9 +928,11 @@ section{
 
 .services-hero .hero-tag{
 
-    display:block;
+    display:inline-block;
 
-    text-align:center;
+    margin:0 auto 18px;
+
+    letter-spacing:3px;
 
 }
 
@@ -970,22 +972,6 @@ section{
    SERVICE CARDS
 ===================================================== */
 
-.services-grid{
-
-    width:100%;
-
-    max-width:1180px;
-
-    margin-left:120px;
-
-    display:grid;
-
-    grid-template-columns:repeat(3,1fr);
-
-    gap:20px;
-
-}
-
 .service-card{
 
     display:flex;
@@ -994,28 +980,34 @@ section{
 
     justify-content:space-between;
 
-    min-height:185px;
+    min-height:170px;
 
     padding:26px;
 
     border-radius:18px;
 
+    overflow:hidden;
+
     text-decoration:none;
 
     color:white;
 
-    background:rgba(10,15,22,.72);
+    background:rgba(8,12,18,.42);
 
-    backdrop-filter:blur(16px);
+    backdrop-filter:blur(20px);
 
-    -webkit-backdrop-filter:blur(16px);
+    -webkit-backdrop-filter:blur(20px);
 
-    border:1px solid rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.12);
 
     transition:
         transform .3s ease,
         border-color .3s ease,
         box-shadow .3s ease;
+
+    box-shadow:
+        0 12px 40px rgba(0,0,0,.28),
+        inset 0 1px 0 rgba(255,255,255,.05);
 
 }
 
@@ -1025,8 +1017,11 @@ section{
 
     border-color:var(--color-primary);
 
-    box-shadow:0 18px 45px rgba(0,0,0,.35);
+    box-shadow:
 
+        0 20px 60px rgba(0,0,0,.45),
+
+        0 0 24px rgba(58,123,255,.18);
 }
 
 .service-card h3{
