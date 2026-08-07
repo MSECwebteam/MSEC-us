@@ -938,10 +938,21 @@ section{
 
 .services-hero .hero-title{
 
+    align-items:center;
+
     text-align:center;
 
 }
 
+.services-hero .hero-title span{
+
+    display:block;
+
+    width:100%;
+
+    text-align:center;
+
+}
 
 .services-hero .hero-content p{
 
@@ -992,22 +1003,24 @@ section{
 
     color:white;
 
-    background:rgba(8,12,18,.42);
+    /* True glass effect */
+    background:rgba(255,255,255,.08);
 
-    backdrop-filter:blur(20px);
+    backdrop-filter:blur(18px) saturate(180%);
 
-    -webkit-backdrop-filter:blur(20px);
+    -webkit-backdrop-filter:blur(18px) saturate(180%);
 
-    border:1px solid rgba(255,255,255,.12);
+    border:1px solid rgba(255,255,255,.22);
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.18),
+        inset 0 1px 0 rgba(255,255,255,.18);
 
     transition:
         transform .3s ease,
         border-color .3s ease,
-        box-shadow .3s ease;
-
-    box-shadow:
-        0 12px 40px rgba(0,0,0,.28),
-        inset 0 1px 0 rgba(255,255,255,.05);
+        box-shadow .3s ease,
+        background .3s ease;
 
 }
 
@@ -1015,13 +1028,15 @@ section{
 
     transform:translateY(-8px);
 
-    border-color:var(--color-primary);
+    background:rgba(255,255,255,.12);
+
+    border-color:rgba(255,255,255,.35);
 
     box-shadow:
+        0 20px 60px rgba(0,0,0,.35),
+        0 0 28px rgba(58,123,255,.18),
+        inset 0 1px 0 rgba(255,255,255,.25);
 
-        0 20px 60px rgba(0,0,0,.45),
-
-        0 0 24px rgba(58,123,255,.18);
 }
 
 .service-card h3{
