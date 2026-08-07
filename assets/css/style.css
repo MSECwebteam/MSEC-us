@@ -1187,6 +1187,31 @@ transition:
 
 }
 
+.about-hero .hero-title{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:4px;
+
+    margin:30px auto;
+
+    width:fit-content;
+
+}
+
+.about-hero .hero-title span{
+
+    display:block;
+
+    text-align:center;
+
+}
+
+
 .about-hero .hero-divider{
 
     margin:28px auto;
@@ -1294,57 +1319,6 @@ transition:
     opacity:.28;
 
     transform:scale(1.03);
-
-}
-
-/* =====================================================
-   ABOUT SECTIONS
-===================================================== */
-
-.about-intro,
-.about-mindset,
-.about-purpose,
-.about-standard,
-.about-protect,
-.about-cta{
-
-    padding:140px 0;
-
-}
-
-.about-intro .container,
-.about-purpose .container,
-.about-cta .container{
-
-    max-width:900px;
-
-}
-
-.about-intro h2,
-.about-purpose h2,
-.about-standard h2,
-.about-protect h2,
-.about-cta h2{
-
-    font-size:3rem;
-
-    line-height:1.15;
-
-    margin-bottom:30px;
-
-}
-
-.about-intro p,
-.about-purpose p,
-.about-standard p,
-.about-protect p,
-.about-cta p{
-
-    color:var(--text-light);
-
-    line-height:1.9;
-
-    font-size:1.08rem;
 
 }
 
