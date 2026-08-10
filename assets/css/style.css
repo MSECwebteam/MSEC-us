@@ -1615,3 +1615,177 @@ transition:
     transform:translateY(0);
 
 }
+
+/* =====================================================
+   SERVICE DETAIL HERO
+===================================================== */
+
+.service-detail-hero{
+
+    position:relative;
+
+    min-height:520px;
+
+    padding:170px 0 120px;
+
+    display:flex;
+
+    align-items:center;
+
+    overflow:hidden;
+
+    background:
+        radial-gradient(
+            circle at 80% 25%,
+            rgba(49,71,108,.45),
+            transparent 40%
+        ),
+        radial-gradient(
+            circle at 20% 75%,
+            rgba(100,75,64,.28),
+            transparent 38%
+        ),
+        linear-gradient(
+            135deg,
+            #020304 0%,
+            #05162D 55%,
+            #0D0E10 100%
+        );
+
+}
+
+
+/* ---------- SUBTLE LIGHTING ---------- */
+
+.service-detail-hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+        linear-gradient(
+            115deg,
+            transparent 0%,
+            rgba(255,255,255,.025) 45%,
+            transparent 70%
+        );
+
+    pointer-events:none;
+
+}
+
+
+/* ---------- HERO CONTENT ---------- */
+
+.service-detail-hero .container{
+
+    position:relative;
+
+    z-index:2;
+
+    width:100%;
+
+}
+
+
+.service-detail-hero-content{
+
+    max-width:800px;
+
+    margin:0 auto;
+
+    text-align:center;
+
+}
+
+
+/* ---------- TAG ---------- */
+
+.service-detail-tag{
+
+    display:block;
+
+    margin-bottom:20px;
+
+    color:#D49A6D;
+
+    font-size:.85rem;
+
+    font-weight:600;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+}
+
+
+/* ---------- TITLE ---------- */
+
+.service-detail-hero h1{
+
+    margin:0;
+
+    color:#F4F4F2;
+
+    font-size:clamp(3rem,6vw,5.5rem);
+
+    line-height:.95;
+
+    letter-spacing:-2px;
+
+    font-weight:800;
+
+}
+
+
+.service-detail-hero h1 span{
+
+    display:block;
+
+    color:#D49A6D;
+
+}
+
+
+/* ---------- DIVIDER ---------- */
+
+.service-detail-divider{
+
+    width:90px;
+
+    height:3px;
+
+    margin:32px auto;
+
+    background:linear-gradient(
+        90deg,
+        #31476C,
+        #D49A6D
+    );
+
+    box-shadow:
+        0 0 18px rgba(212,154,109,.18);
+
+}
+
+
+/* ---------- DESCRIPTION ---------- */
+
+.service-detail-hero-content p{
+
+    max-width:650px;
+
+    margin:0 auto;
+
+    color:rgba(244,244,242,.78);
+
+    font-size:1.08rem;
+
+    line-height:1.8;
+
+}
+
