@@ -659,7 +659,7 @@ ABOUT PAGE
 
 .service-detail-intro{
 
-    padding:80px 20px;
+    padding:65px 20px;
 
 }
 
@@ -698,7 +698,7 @@ ABOUT PAGE
 
 .service-detail-capabilities{
 
-    padding:80px 20px;
+    padding:65px 20px;
 
 }
 
@@ -773,13 +773,6 @@ ABOUT PAGE
 
 }
 
-.service-detail-principles{
-
-    margin-top:35px;
-
-}
-
-
 /* ---------- AUDIENCE ---------- */
 
 .service-detail-audience{
@@ -813,7 +806,7 @@ ABOUT PAGE
 
 .service-detail-cta{
 
-    padding:85px 20px 100px;
+    padding:65px 20px 80px;
 
 }
 
