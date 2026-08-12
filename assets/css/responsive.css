@@ -833,3 +833,92 @@ ABOUT PAGE
 }
 
 }
+
+/* =====================================================
+   SECURITY ASSESSMENT — MOBILE
+===================================================== */
+
+@media (max-width:768px){
+
+    .assessment-page{
+
+        padding:130px 20px 70px;
+
+    }
+
+
+    .assessment-header{
+
+        margin-bottom:40px;
+
+    }
+
+
+    .assessment-header h1{
+
+        font-size:2.7rem;
+
+        letter-spacing:-1.2px;
+
+    }
+
+
+    .assessment-card{
+
+        padding:28px 20px;
+
+        border-radius:20px;
+
+    }
+
+
+    .assessment-progress{
+
+        margin-bottom:40px;
+
+    }
+
+
+    .assessment-options{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .assessment-option{
+
+        min-height:64px;
+
+    }
+
+
+    .assessment-fields{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .assessment-step h2{
+
+        font-size:2rem;
+
+    }
+
+
+    .assessment-controls{
+
+        margin-top:35px;
+
+    }
+
+
+    .assessment-controls .btn{
+
+        min-width:115px;
+
+    }
+
+}
+
