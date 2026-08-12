@@ -2555,59 +2555,23 @@ transition:
 
     background:
         radial-gradient(
-            circle at 50% 20%,
-            rgba(49,71,108,.22),
-            transparent 45%
+            circle at 50% 8%,
+            rgba(49,128,255,.18),
+            transparent 42%
         ),
-        #020304;
-
-}
-
-
-.assessment-header{
-
-    max-width:760px;
-
-    margin:0 auto 60px;
-
-    text-align:center;
-
-}
-
-
-.assessment-header h1{
-
-    margin:20px 0 25px;
-
-    color:#F4F4F2;
-
-    font-size:clamp(3rem,6vw,5rem);
-
-    line-height:1;
-
-    letter-spacing:-2px;
-
-}
-
-
-.assessment-header h1 span{
-
-    display:block;
-
-    color:#D49A6D;
-
-}
-
-
-.assessment-header p{
-
-    max-width:650px;
-
-    margin:0 auto;
-
-    color:rgba(244,244,242,.72);
-
-    line-height:1.8;
+        radial-gradient(
+            circle at 20% 55%,
+            rgba(35,82,135,.14),
+            transparent 38%
+        ),
+        linear-gradient(
+            135deg,
+            #05080D 0%,
+            #0B1420 32%,
+            #111923 58%,
+            #090D13 82%,
+            #050608 100%
+        );
 
 }
 
@@ -3603,81 +3567,3 @@ body:has(#security-assessment)::before{
 
 }
 
-/* =====================================================
-   MSEC ASSESSMENT — FORCE PAGE BACKGROUND
-===================================================== */
-
-body:has(#security-assessment),
-body:has(#security-assessment) main {
-
-    background:
-        radial-gradient(
-            circle at 50% 0%,
-            rgba(35, 82, 135, 0.45),
-            transparent 45%
-        ),
-        linear-gradient(
-            135deg,
-            #05080D 0%,
-            #0C1725 32%,
-            #172333 58%,
-            #0B1119 80%,
-            #050608 100%
-        ) !important;
-
-    background-color:#080D14 !important;
-
-}
-
-
-/* Keep the assessment background from being overridden */
-
-body:has(#security-assessment) main {
-
-    min-height:100vh;
-
-}
-
-
-/* Subtle blue center glow */
-
-body:has(#security-assessment)::before {
-
-    content:"";
-
-    position:fixed;
-
-    top:-150px;
-
-    left:50%;
-
-    transform:translateX(-50%);
-
-    width:900px;
-
-    height:650px;
-
-    background:
-        radial-gradient(
-            ellipse,
-            rgba(49,128,255,.12),
-            transparent 68%
-        );
-
-    pointer-events:none;
-
-    z-index:0;
-
-}
-
-
-/* Keep page content above the atmosphere */
-
-body:has(#security-assessment) main,
-body:has(#security-assessment) header {
-
-    position:relative;
-
-    z-index:1;
-
-}
