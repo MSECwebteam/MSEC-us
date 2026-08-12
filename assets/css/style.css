@@ -3520,3 +3520,75 @@ transition:
 
 }
 
+/* =====================================================
+   MSEC ASSESSMENT BACKGROUND
+===================================================== */
+
+body:has(#security-assessment){
+
+    background:
+        radial-gradient(
+            circle at 50% 0%,
+            rgba(30, 73, 125, .28),
+            transparent 45%
+        ),
+        linear-gradient(
+            135deg,
+            #050A11 0%,
+            #0B111A 38%,
+            #111923 68%,
+            #070A0F 100%
+        );
+
+    background-attachment:fixed;
+
+    min-height:100vh;
+
+}
+
+
+/* Main assessment area */
+
+body:has(#security-assessment) main{
+
+    background:
+        radial-gradient(
+            circle at 50% 20%,
+            rgba(43, 91, 150, .12),
+            transparent 40%
+        );
+
+}
+
+
+/* Subtle blue atmospheric glow */
+
+body:has(#security-assessment)::before{
+
+    content:"";
+
+    position:fixed;
+
+    top:-250px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:700px;
+
+    height:500px;
+
+    background:
+        radial-gradient(
+            ellipse,
+            rgba(49,128,255,.08),
+            transparent 70%
+        );
+
+    pointer-events:none;
+
+    z-index:-1;
+
+}
+
