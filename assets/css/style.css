@@ -3528,16 +3528,17 @@ body:has(#security-assessment){
 
     background:
         radial-gradient(
-            circle at 50% 0%,
-            rgba(30, 73, 125, .28),
-            transparent 45%
+            circle at 50% 5%,
+            rgba(35, 82, 135, .38),
+            transparent 42%
         ),
         linear-gradient(
             135deg,
-            #050A11 0%,
-            #0B111A 38%,
-            #111923 68%,
-            #070A0F 100%
+            #05080D 0%,
+            #0B1420 30%,
+            #111923 58%,
+            #090D13 82%,
+            #050608 100%
         );
 
     background-attachment:fixed;
@@ -3547,21 +3548,25 @@ body:has(#security-assessment){
 }
 
 
-/* Main assessment area */
+/* =====================================================
+   ASSESSMENT ATMOSPHERE
+===================================================== */
 
 body:has(#security-assessment) main{
 
     background:
         radial-gradient(
-            circle at 50% 20%,
-            rgba(43, 91, 150, .12),
-            transparent 40%
+            ellipse at 50% 35%,
+            rgba(38, 83, 135, .18),
+            transparent 55%
         );
 
 }
 
 
-/* Subtle blue atmospheric glow */
+/* =====================================================
+   SUBTLE BLUE LIGHT
+===================================================== */
 
 body:has(#security-assessment)::before{
 
@@ -3569,21 +3574,21 @@ body:has(#security-assessment)::before{
 
     position:fixed;
 
-    top:-250px;
+    top:-220px;
 
     left:50%;
 
     transform:translateX(-50%);
 
-    width:700px;
+    width:850px;
 
-    height:500px;
+    height:600px;
 
     background:
         radial-gradient(
             ellipse,
-            rgba(49,128,255,.08),
-            transparent 70%
+            rgba(49,128,255,.10),
+            transparent 68%
         );
 
     pointer-events:none;
@@ -3591,4 +3596,3 @@ body:has(#security-assessment)::before{
     z-index:-1;
 
 }
-
