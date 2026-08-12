@@ -3596,3 +3596,9 @@ body:has(#security-assessment)::before{
     z-index:-1;
 
 }
+
+.assessment-loader{
+
+    background:#05080D;
+
+}
