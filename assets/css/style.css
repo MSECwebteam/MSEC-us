@@ -3602,3 +3602,82 @@ body:has(#security-assessment)::before{
     background:#05080D;
 
 }
+
+/* =====================================================
+   MSEC ASSESSMENT — FORCE PAGE BACKGROUND
+===================================================== */
+
+body:has(#security-assessment),
+body:has(#security-assessment) main {
+
+    background:
+        radial-gradient(
+            circle at 50% 0%,
+            rgba(35, 82, 135, 0.45),
+            transparent 45%
+        ),
+        linear-gradient(
+            135deg,
+            #05080D 0%,
+            #0C1725 32%,
+            #172333 58%,
+            #0B1119 80%,
+            #050608 100%
+        ) !important;
+
+    background-color:#080D14 !important;
+
+}
+
+
+/* Keep the assessment background from being overridden */
+
+body:has(#security-assessment) main {
+
+    min-height:100vh;
+
+}
+
+
+/* Subtle blue center glow */
+
+body:has(#security-assessment)::before {
+
+    content:"";
+
+    position:fixed;
+
+    top:-150px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:900px;
+
+    height:650px;
+
+    background:
+        radial-gradient(
+            ellipse,
+            rgba(49,128,255,.12),
+            transparent 68%
+        );
+
+    pointer-events:none;
+
+    z-index:0;
+
+}
+
+
+/* Keep page content above the atmosphere */
+
+body:has(#security-assessment) main,
+body:has(#security-assessment) header {
+
+    position:relative;
+
+    z-index:1;
+
+}
